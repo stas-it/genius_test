@@ -1,35 +1,61 @@
+:root {
+  --color-brand: rgba(129, 155, 87, 1);
+  --color-secondary: rgba(250, 244, 234, 1);
+  --color-accent: rgba(49, 38, 26, 1);
+  --color-accent-dark: rgba(70, 89, 41, 1);
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--color-secondary);
+  color: var(--color-accent);
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style-type: none;
 }
 
 .btn {
   color: white;
-  border: solid 2px rgba(129, 155, 87, 1);
+  border: solid 2px var(--color-brand);
   border-radius: 8px;
-  background-color: rgba(129, 155, 87, 1);
+  background-color: var(--color-brand);
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
 .btn:hover {
   background-color: transparent;
-  color: rgba(49, 38, 26, 1);
-  border-color: rgba(129, 155, 87, 1);
+  color: var(--color-accent);
+  border-color: var(--color-brand);
 }
 .link {
-  color: rgba(250, 244, 234, 1);
+  color: var(--color-secondary);
 }
 .link:hover {
-  color: rgba(129, 155, 87, 1);
+  color: var(--color-brand);
 }
 
 .hero-title {
-  color: rgba(250, 244, 234, 1);
+  color: var(--color-secondary);
 }
 .hero-title .accent {
-  color: rgba(129, 155, 87, 1);
+  color: var(--color-brand);
 }
 .advantages {
-  color: rgba(250, 244, 234, 1);
-  background-color: rgba(129, 155, 87, 1);
+  color: var(--color-secondary);
+  background-color: var(--color-brand);
+}
+
+.section-title {
+  color: var(--color-accent);
+}
+
+.s-b {
+  font-weight: bold;
+  color: var(--color-brand);
+}
+.shefs {
+  color: var(--color-accent-dark);
 }
