@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  color: white;
+  border: solid 2px rgba(129, 155, 87, 1);
+  border-radius: 8px;
+  background-color: rgba(129, 155, 87, 1);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  color: rgba(49, 38, 26, 1);
+  border-color: rgba(129, 155, 87, 1);
+}
+.link {
+  color: rgba(250, 244, 234, 1);
+}
+.link:hover {
+  color: rgba(129, 155, 87, 1);
+}
+
+.hero-title {
+  color: rgba(250, 244, 234, 1);
+}
+.hero-title .accent {
+  color: rgba(129, 155, 87, 1);
+}
+.advantages {
+  color: rgba(250, 244, 234, 1);
+  background-color: rgba(129, 155, 87, 1);
+}
