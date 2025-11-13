@@ -1,10 +1,15 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --color-brand: rgba(129, 155, 87, 1);
   --color-secondary: rgba(250, 244, 234, 1);
   --color-accent: rgba(49, 38, 26, 1);
   --color-accent-dark: rgba(70, 89, 41, 1);
 }
-
+/* Typography and Base Elements */
 body {
   font-family: "Arial", sans-serif;
   background-color: var(--color-secondary);
@@ -15,6 +20,14 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+  }
 }
 address {
   font-style: normal;
@@ -23,6 +36,13 @@ ul {
   list-style-type: none;
 }
 
+.conteiner {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+}
+
+/*header*/
 .btn {
   color: white;
   border: solid 2px var(--color-brand);
@@ -49,15 +69,33 @@ ul {
   font-weight: 600;
 }
 
+/* Sections new baker*/
 .hero-title {
   color: var(--color-secondary);
   text-align: center;
   font-size: 128px;
   font-weight: 900;
+  margin-bottom: 42px;
 }
 .hero-title .accent {
   color: var(--color-brand);
 }
+
+/* Sections traditions*/
+
+.section {
+  padding: 48px, 0;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .advantages {
   color: var(--color-secondary);
   background-color: var(--color-brand);
@@ -85,7 +123,12 @@ ul {
   font-size: 20px;
   font-weight: 300;
 }
+
+.shefs-section {
+  margin-bottom: 80px;
+}
 .shefs-title {
+  margin-bottom: 16px;
   font-size: 40px;
   font-weight: 600;
 }
@@ -111,4 +154,11 @@ ul {
 
 .address-copy {
   font-size: 14px;
+}
+.hero-section {
+  padding: 270px 0;
+}
+
+.section-formats {
+  margin-bottom: 80px;
 }
