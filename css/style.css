@@ -52,6 +52,7 @@ ul {
   font-size: 16px;
   cursor: pointer;
   font-weight: 600;
+  padding: 16px 32px;
 }
 .btn:hover {
   background-color: transparent;
